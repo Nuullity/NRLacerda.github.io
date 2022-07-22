@@ -82,7 +82,10 @@ a{text-decoration:none;
 .margin3 {
     margin-top: 2vw;
 }
-
+.margin4
+{
+    margin-top: 5vh;
+}
 .ajst {
     margin-left: 1vw;
 }
@@ -116,8 +119,8 @@ a{text-decoration:none;
 }
 
 .margemmatriz {
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .pad {
@@ -260,6 +263,10 @@ padding: 8px;
     background: rgb(49,0,182);
     background: linear-gradient(190deg, rgba(49,0,182,1) 0%, rgba(0,215,255,1) 100%); 
 }
+.contawid
+{
+    width: 30vw;
+}
 /* MEDIA CEL*/
 
 @media (max-width: 420px) {
@@ -284,13 +291,6 @@ padding: 8px;
     .hei {
         height: 7vh;
     }
-
-    .ajst1 {
-        margin-left: 0vw;
-        margin-right: 0vw;
-        margin-top: 0vw;
-    }
-
     #wid {
         width: 100%;
         margin-right: 0vw;
@@ -302,11 +302,6 @@ padding: 8px;
 
     .aboutme2 {
         display: flex;
-    }
-    #ajst1
-    {
-        width: 80%;
-        height: 80%;
     }
     .cato{
         display: none;
