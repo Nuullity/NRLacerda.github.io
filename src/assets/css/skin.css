@@ -1,0 +1,318 @@
+/* BASE */
+a{text-decoration:none;
+    color:unset;
+}
+.corpo1 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../img/wppdraw.jpeg');
+    background-size: cover;
+}
+
+.corpo {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.wpp {
+    background-color: rgb(9, 0, 38);
+}
+
+.wpp1 {
+    background: rgb(97, 0, 119);
+    background: linear-gradient(126deg, rgba(97, 0, 119, 1) 0%, rgba(31, 9, 121, 1) 18%, rgba(0, 212, 255, 1) 100%);
+}
+
+.wpp2 {
+    background: rgb(97, 0, 119);
+    background: linear-gradient(126deg, rgba(97, 0, 119, 1) 0%, rgba(62, 29, 198, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.wpp3 {
+    background: rgb(97, 0, 119);
+    background: linear-gradient(126deg, rgba(97, 0, 119, 1) 0%, rgba(62, 29, 198, 1) 69%, rgba(0, 212, 255, 1) 100%);
+}
+.wpp4{
+    background: rgb(0,0,0);
+    background: linear-gradient(162deg, rgba(0,0,0,1) 0%, rgba(44,0,84,1) 47%, rgba(84,0,167,1) 100%); 
+}
+
+.foot {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(128deg, rgba(2, 0, 36, 1) 0%, rgba(60, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+/* FONTE */
+.font {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.font1 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 2em
+}
+
+.size {
+    font-size: 2em;
+}
+
+.cc {
+    color: rgb(255, 255, 255);
+    margin-top: 1.5vw;
+}
+
+/* AJUSTES */
+.margin {
+    margin-top: 4vw;
+}
+
+.margin1 {
+    margin-top: 6vw;
+}
+
+.margin2 {
+    margin-right: 3vw;
+}
+
+.margin3 {
+    margin-top: 2vw;
+}
+
+.ajst {
+    margin-left: 1vw;
+}
+
+#ajst1 {
+    margin-left: 1vw;
+    margin-top: 6.5vw;
+}
+
+.ajst1 {
+    margin-left: 5vw;
+    margin-right: 15vw;
+    margin-top: 2vw;
+}
+
+#wid {
+    width: 30%;
+    margin-right: 5vw;
+}
+
+.wid {
+    width: 13vw;
+}
+
+.margem {
+    padding: 20px;
+}
+
+.margem2 {
+    padding-right: 15em;
+}
+
+.margemmatriz {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+.pad {
+    padding: 3vh;
+}
+
+.marg-l {
+    margin-left: 26vw;
+}
+
+.width {
+    width: 100%;
+}
+
+.fontsizenav {
+    font-size: 100%;
+}
+
+.aboutme2 {
+    display: none;
+}
+
+/* GRID*/
+.g {
+    display: inline;
+    column-gap: 100px;
+}
+
+.borda {
+    border-collapse: separate;
+    border-radius: 32px;
+    border-width: 3vw;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.fontcel {
+    font-size: 5vw;     
+}
+.cato2{
+    display: none;
+}
+/* MENU */
+:root {
+    --menu-size: 250px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+}
+header {
+    background-color: rgb(21, 22, 29);
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#btnMenu {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+#btnMenu:hover {
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(75, 103, 175);
+}
+
+#btnMenu:active {
+    background-color: rgb(3, 4, 7);
+}
+
+#btnClose {
+padding: 8px;
+    background-color: rgb(78, 37, 37);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-collapse: collapse;
+    border-radius: 510px;
+    border-width: 0.5vw;
+}
+
+#btnClose:active {
+    background-color: rgb(151, 73, 73);
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: var(--menu-size);
+    height: 100%;
+    background-color: rgb(40, 42, 54);
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: block;
+}
+
+.menu ul li a {
+    transition: background 0.3s;
+    display: block;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(49, 54, 85);
+}
+
+.effect {
+    transition: margin 0.4s;
+}
+.heinav
+{
+    height: 8vh;
+}
+.wppnav
+{
+    background: rgb(49,0,182);
+    background: linear-gradient(190deg, rgba(49,0,182,1) 0%, rgba(0,215,255,1) 100%); 
+}
+/* MEDIA CEL*/
+
+@media (max-width: 420px) {
+    .corpo1 {
+        width: 100%;
+        height: 75vh;
+    }
+
+    .marg-l {
+        margin-left: 0vw;
+    }
+
+    .fontsizenav {
+        font-size: 0.5em;
+        font-weight: 700;
+    }
+
+    .wid {
+        width: 75vw;
+    }
+
+    .hei {
+        height: 7vh;
+    }
+
+    .ajst1 {
+        margin-left: 0vw;
+        margin-right: 0vw;
+        margin-top: 0vw;
+    }
+
+    #wid {
+        width: 100%;
+        margin-right: 0vw;
+    }
+
+    .aboutme {
+        display: none;
+    }
+
+    .aboutme2 {
+        display: flex;
+    }
+    #ajst1
+    {
+        width: 80%;
+        height: 80%;
+    }
+    .cato{
+        display: none;
+    }
+    .cato2{
+        display: flex;
+        margin-left: 10vw;
+    }
+}
