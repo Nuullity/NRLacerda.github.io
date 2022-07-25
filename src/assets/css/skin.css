@@ -1,7 +1,9 @@
 /* BASE */
-a{text-decoration:none;
-    color:unset;
+a {
+    text-decoration: none;
+    color: unset;
 }
+
 .corpo1 {
     height: 100vh;
     width: 100vw;
@@ -12,7 +14,7 @@ a{text-decoration:none;
 .corpo {
     height: 100vh;
     width: 100vw;
-    overflow-y: auto; 
+    overflow-y: auto;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -35,9 +37,10 @@ a{text-decoration:none;
     background: rgb(97, 0, 119);
     background: linear-gradient(126deg, rgba(97, 0, 119, 1) 0%, rgba(62, 29, 198, 1) 69%, rgba(0, 212, 255, 1) 100%);
 }
-.wpp4{
-    background: rgb(0,0,0);
-    background: linear-gradient(162deg, rgba(0,0,0,1) 0%, rgba(44,0,84,1) 47%, rgba(84,0,167,1) 100%); 
+
+.wpp4 {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(162deg, rgba(0, 0, 0, 1) 0%, rgba(44, 0, 84, 1) 47%, rgba(84, 0, 167, 1) 100%);
 }
 
 .foot {
@@ -82,10 +85,11 @@ a{text-decoration:none;
 .margin3 {
     margin-top: 2vw;
 }
-.margin4
-{
+
+.margin4 {
     margin-top: 5vh;
 }
+
 .ajst {
     margin-left: 1vw;
 }
@@ -160,11 +164,13 @@ a{text-decoration:none;
 }
 
 .fontcel {
-    font-size: 5vw;     
+    font-size: 5vw;
 }
-.cato2{
+
+.cato2 {
     display: none;
 }
+
 /* MENU */
 :root {
     --menu-size: 250px;
@@ -177,6 +183,7 @@ a{text-decoration:none;
     box-sizing: border-box;
     outline: none;
 }
+
 header {
     background-color: rgb(21, 22, 29);
     padding: 10px;
@@ -207,7 +214,7 @@ header {
 }
 
 #btnClose {
-padding: 8px;
+    padding: 8px;
     background-color: rgb(78, 37, 37);
     color: #fff;
     font-size: 20px;
@@ -254,19 +261,20 @@ padding: 8px;
 .effect {
     transition: margin 0.4s;
 }
-.heinav
-{
+
+.heinav {
     height: 8vh;
 }
-.wppnav
-{
-    background: rgb(49,0,182);
-    background: linear-gradient(190deg, rgba(49,0,182,1) 0%, rgba(0,215,255,1) 100%); 
+
+.wppnav {
+    background: rgb(49, 0, 182);
+    background: linear-gradient(190deg, rgba(49, 0, 182, 1) 0%, rgba(0, 215, 255, 1) 100%);
 }
-.contawid
-{
+
+.contawid {
     width: 30vw;
 }
+
 /* MEDIA CEL*/
 
 @media (max-width: 420px) {
@@ -291,6 +299,7 @@ padding: 8px;
     .hei {
         height: 7vh;
     }
+
     #wid {
         width: 100%;
         margin-right: 0vw;
@@ -303,10 +312,12 @@ padding: 8px;
     .aboutme2 {
         display: flex;
     }
-    .cato{
+
+    .cato {
         display: none;
     }
-    .cato2{
+
+    .cato2 {
         display: flex;
         margin-left: 10vw;
     }
