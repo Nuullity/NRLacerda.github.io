@@ -20,7 +20,7 @@ a {
 }
 
 .wpp {
-    background-color: rgb(9, 0, 38);
+    background-color: rgb(2, 0, 24);
 }
 
 .wpp1 {
@@ -281,6 +281,9 @@ header {
     .corpo1 {
         width: 100%;
         height: 75vh;
+    }
+    .font{
+        font-size: 0.8rem;
     }
 
     .marg-l {
