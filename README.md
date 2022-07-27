@@ -11,7 +11,7 @@ Fontes do Google
 e artes que eu produzi assim como o padrão de cores escolhido.
 <br>
 <h3>Artes</h3>
-Se quiser ver mais das minhas ilustrações, (quase) todas estão disponíveis no meu >
+Se quiser ver mais das minhas ilustrações, (quase) todas estão disponíveis no meu
 <a href=https://www.instagram.com/neecolart/> Instagram </a>
 <br>
 <br>
