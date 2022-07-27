@@ -15,4 +15,4 @@ Se quiser ver mais das minhas ilustrações, (quase) todas estão disponíveis n
 <a href=https://www.instagram.com/neecolart/> Instagram </a>
 <br>
 <br>
-<img src="./src/assets/img/wppdraw.jpeg">
+<img src="./src/assets/img/wppfull.jpeg">
