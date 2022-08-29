@@ -1,4 +1,48 @@
 /* BASE */
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    .fadeIn {
+        -webkit-animation: fadeIn 3s cubic-bezier(.53,-0.04,0,1.03);
+        -moz-animation: fadeIn 3s cubic-bezier(.53,-0.04,0,1.03);
+        -o-animation: fadeIn 3s cubic-bezier(.53,-0.04,0,1.03);
+        animation: fadeIn 3s cubic-bezier(.53,-0.04,0,1.03);
+        }
+        @-webkit-keyframes fadeOut {
+            0% { opacity: 1; }
+            100% { opacity: 0; } 
+            }
+            @-moz-keyframes fadeOut {
+            0% { opacity: 1;}
+            100% { opacity: 0; }
+            }
+            @-o-keyframes fadeOut {
+            0% { opacity: 1; }
+            100% { opacity: 0; }
+            }
+            @keyframes fadeOut {
+            0% { opacity: 1; }
+            100% { opacity: 0; }
+            }
+            .fadeOut {
+                -webkit-animation: fadeOut 3s ease-in-out;
+                -moz-animation: fadeOut 3s ease-in-out;
+                -o-animation: fadeOut 3s ease-in-out;
+                animation: fadeOut 3s ease-in-out;
+                }
 a {
     text-decoration: none;
     color: unset;
@@ -88,6 +132,14 @@ a {
 
 .margin4 {
     margin-top: 5vh;
+}
+.margin5
+{
+    margin-left:auto;
+}
+.margin6
+{
+    margin-top: auto;
 }
 
 .ajst {
@@ -323,5 +375,8 @@ header {
     .cato2 {
         display: flex;
         margin-left: 10vw;
+    }
+    #nome{
+        font-size: 2.5em;
     }
 }
